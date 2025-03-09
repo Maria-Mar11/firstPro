@@ -7,11 +7,11 @@ def demo(screen):
     effects = [
         Cycle(
             screen,
-            FigletText("ASCIIMATICS", font='big'),
+            FigletText("My Dream Team", font='big'),
             int(screen.height / 2 - 8)),
         Cycle(
             screen,
-            FigletText("ROCKS!", font='big'),
+            FigletText("IS You!", font='big'),
             int(screen.height / 2 + 3)),
         Stars(screen, 200)
     ]
